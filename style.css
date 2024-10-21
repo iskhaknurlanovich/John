@@ -6,7 +6,8 @@
 }
 
 .conteiner {
-  width: 85%;
+  max-width: 950px;
+  width: 100%;
   margin: 0 auto;
 }
 #header {
