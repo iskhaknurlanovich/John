@@ -18,6 +18,9 @@
   justify-content: flex-end;
   gap: 40px;
 }
+.burger-menu {
+  display: none;
+}
 .header a {
   color: black;
   font-weight: 500;
@@ -27,6 +30,9 @@
   justify-content: space-between;
   align-items: center;
   margin-block: 80px;
+  img {
+    width: 32%;
+  }
 }
 .main {
   display: flex;
@@ -54,6 +60,7 @@
   background: rgba(237, 247, 250, 1);
   height: 360px;
   padding: 5px 0;
+  width: 100%;
 }
 .post-top {
   display: flex;
@@ -82,6 +89,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  border-radius: 5px;
 }
 .box-1 h4 {
   font-weight: 400;
@@ -95,32 +103,17 @@
 .box-1 h4 span {
   margin-inline: 20px;
 }
-.box-2 {
-  background: #fff;
-  width: 340px;
-  padding: 25px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-.box-2 h4 {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 26.44px;
-}
-.box-2 p {
-  line-height: 23.5px;
-  font-size: 13px;
-}
-.box-2 h4 span {
-  margin-inline: 20px;
-}
 .fueter-top h4 {
   font-size: 17px;
   font-weight: 400;
 }
 .fueter-top {
   padding: 20px 0;
+}
+.fueter-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .fueter {
   display: flex;
@@ -133,20 +126,15 @@
 .img-1 {
   display: flex;
   border-bottom: 1px solid rgba(128, 128, 128, 0.336);
-}
-.img-2 {
-  display: flex;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.336);
-}
-.img-3 {
-  display: flex;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+  width: 100%;
 }
 .img-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10px;
   padding: 0 10px;
+  width: 100%;
 }
 .img-text span {
   background: rgba(20, 40, 80, 1);
@@ -179,4 +167,7 @@
 }
 .icons {
   padding: 16px;
+}
+.p-1 p {
+  width: 600px;
 }

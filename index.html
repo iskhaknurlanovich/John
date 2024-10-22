@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="media.css" />
     <link
       style="width: 10px"
       rel="shortcut icon"
@@ -24,6 +25,9 @@
           <a href="">Blog</a>
           <a href="">Contact</a>
         </div>
+        <div class="burger-menu">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
       </div>
     </header>
     <section id="section">
@@ -36,10 +40,8 @@
             </h1>
             <p>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet <br />
-              sint. Velit officia consequat duis enim velit mollit. Exercitation
-              veniam <br />
-              consequat sunt nostrud amet.
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
             </p>
             <button>Download Resume</button>
           </div>
@@ -58,20 +60,18 @@
             <h1>Making a design system from scratch</h1>
             <h4>12 Feb 2020 <span>|</span> Design, Pattern</h4>
             <p>
-              Amet minim mollit non deserunt ullamco est sit <br />
-              aliqua dolor do amet sint. Velit officia consequat <br />
-              duis enim velit mollit. Exercitation veniam <br />
-              consequat sunt nostrud amet.
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
             </p>
           </div>
-          <div class="box-2">
+          <div class="box-1">
             <h1>Creating pixel perfect icons in Figma</h1>
             <h4>12 Feb 2020<span>|</span>Figma, Icon Design</h4>
             <p>
-              Amet minim mollit non deserunt ullamco est sit <br />
-              aliqua dolor do amet sint. Velit officia consequat <br />
-              duis enim velit mollit. Exercitation veniam <br />
-              consequat sunt nostrud amet.
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
             </p>
           </div>
         </div>
@@ -83,7 +83,7 @@
           <div class="fueter-top">
             <h4>Featured works</h4>
           </div>
-          <div class="img-0">
+          <div class="fueter-main">
             <div class="img-1">
               <img src="./image/group-1.svg" alt="" />
               <div class="img-text">
@@ -92,48 +92,50 @@
                   <span>2020</span>
                   <h4>Dashboard</h4>
                 </div>
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit <br />
-                  officia consequat duis enim velit mollit. Exercitation veniam
-                  consequat sunt <br />
-                  nostrud amet.
-                </p>
+                <div class="p-1">
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="img-2">
-            <img src="./image/ground-2.png" alt="" />
-            <div class="img-text">
-              <h1>Vibrant Portraits of 2020</h1>
-              <div class="span">
-                <span>2018</span>
-                <h4>Illustration</h4>
+            <div class="img-1">
+              <img src="./image/ground-2.png" alt="" />
+              <div class="img-text">
+                <h1>Vibrant Portraits of 2020</h1>
+                <div class="span">
+                  <span>2018</span>
+                  <h4>Illustration</h4>
+                </div>
+                <div class="p-1">
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
               </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit <br />
-                officia consequat duis enim velit mollit. Exercitation veniam
-                consequat sunt <br />
-                nostrud amet.
-              </p>
             </div>
-          </div>
-          <div class="img-3">
-            <img src="./image/ground-3.png" alt="" />
-            <div class="img-text">
-              <h1>36 Days of Malayalam type</h1>
-              <div class="span">
-                <span>2018</span>
-                <h4>Typography</h4>
+            <div class="img-1">
+              <img src="./image/ground-3.png" alt="" />
+              <div class="img-text">
+                <h1>36 Days of Malayalam</h1>
+                <div class="span">
+                  <span>2018</span>
+                  <h4>Typography</h4>
+                </div>
+                <div class="p-1">
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit <br />
+                    officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt <br />
+                    nostrud amet.
+                  </p>
+                </div>
               </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit <br />
-                officia consequat duis enim velit mollit. Exercitation veniam
-                consequat sunt <br />
-                nostrud amet.
-              </p>
             </div>
           </div>
         </div>
@@ -160,5 +162,14 @@
         </div>
       </div>
     </footer>
+    <!--  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
