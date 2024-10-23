@@ -419,3 +419,152 @@
     }
   }
 }
+@media (max-width: 414px) {
+  .conteiner {
+    max-width: 280px;
+  }
+  .p-1 p {
+    padding-left: 5px;
+    width: 300px;
+  }
+  .icons img {
+    width: 20px;
+  }
+  .icons {
+    padding: 10px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .img-text {
+    width: 200px;
+    h1 {
+      font-size: 26px;
+      width: 310px;
+      text-align: center;
+    }
+  }
+  #post {
+    height: 460px;
+  }
+  .post {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .box-1 {
+    width: 250px;
+    padding: 6px 13px;
+    h1 {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 13px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+  .fueter-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+  }
+  .img-1 {
+    flex-direction: column;
+    img {
+      width: 305px;
+    }
+  }
+  .span {
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    gap: 30px;
+    span {
+      width: 50px;
+      height: 25px;
+      font-size: 18px;
+    }
+  }
+  .section {
+    p {
+      width: 330px;
+    }
+  }
+}
+@media (max-width: 376px) {
+  .conteiner {
+    max-width: 260px;
+  }
+  .p-1 p {
+    padding-left: 5px;
+    width: 265px;
+  }
+  .icons img {
+    width: 20px;
+  }
+  .icons {
+    padding: 10px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .img-text {
+    width: 200px;
+    h1 {
+      font-size: 24px;
+      width: 274px;
+      text-align: center;
+    }
+  }
+  #post {
+    height: 460px;
+  }
+  .post {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .box-1 {
+    width: 250px;
+    padding: 6px 13px;
+    h1 {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 13px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+  .fueter-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+  }
+  .img-1 {
+    flex-direction: column;
+    img {
+      width: 275px;
+    }
+  }
+  .span {
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    span {
+      width: 41px;
+      height: 19px;
+      font-size: 13px;
+    }
+  }
+  .section {
+    p {
+      width: 330px;
+    }
+  }
+}
